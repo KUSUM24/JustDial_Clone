@@ -1,0 +1,157 @@
+/* Common css  */
+:root {
+  --border-gray: rgb(214, 209, 209);
+}
+.align-flex {
+  display: flex;
+  align-items: center;
+}
+.align-start {
+  display: flex;
+  align-items: flex-start;
+}
+.justify-flex {
+  display: flex;
+  justify-content: center;
+}
+.justify-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.just-dial-main {
+  background-color: #f0f0f0;
+  padding: 0%;
+}
+/* Header CSS  */
+.header-main {
+  padding: 1% 1.5%;
+  border-bottom: 1px solid rgb(214, 211, 211);
+}
+.header-main .jd-logo {
+  width: 32px;
+  height: 25px;
+}
+.search-bar-main .search-right {
+  background-color: #fe610c;
+  padding: 7px;
+}
+.search-bar-main .search-input {
+  border-radius: 0 !important;
+  padding: 0rem 0.75rem 0rem 0.7rem !important;
+  width: 320px;
+}
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.left-header .left-item {
+  margin-right: 4%;
+}
+.right-header .right-item {
+  margin-left: 4%;
+  padding: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.underline:hover {
+  text-decoration: underline;
+}
+.orange-item {
+  background-color: #fe610c;
+  color: white;
+}
+.bottom-section {
+  margin: 2px 10px;
+}
+/* Google Ad  */
+.ad-img {
+  width: 100%;
+}
+.main-heading {
+  padding: 0.5%;
+  color: #222;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+/* Sort By Section  */
+.sort-main {
+  border-top: 1px solid var(--border-gray);
+  border-bottom: 1px solid var(--border-gray);
+}
+.sort-by--heading {
+  background-color: #e6e6e6;
+  padding: 6px 35px 6px 10px;
+}
+.sort-arrow {
+  border-color: transparent transparent transparent #e6e6e6;
+  border-style: solid;
+  border-width: 16px 0 19px 19px;
+  float: right;
+  height: 0;
+}
+.sort-right .sort-item {
+  border-right: 1px solid var(--border-gray);
+  padding: 6px 25px;
+  cursor: pointer;
+}
+.sort-right .active-sort-item {
+  color: blue;
+}
+.drop-arrow--sort {
+  color: #8f8d8e;
+  font-size: 25px;
+  margin: 0px 5px;
+}
+.last-sort-item {
+  border: none !important;
+}
+/* Main Section  */
+/* Left Section  */
+.main-container .left-sidebar {
+  width: 15%;
+}
+.left-sidebar li {
+  list-style-type: none;
+  padding: 5px 10px;
+  color: #707070;
+  font-weight: 400;
+  font-size: 14px;
+}
+/* Right Section  */
+.main-container .right-section {
+  width: 85%;
+}
+.right-section .card-image {
+  width: 260px;
+  height: 150px;
+  border-radius: 10px;
+}
+.right-section .details-item {
+  color: gray;
+}
+.jd_verified {
+  width: 72px;
+  height: 15px;
+  background-size: 70px 15px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/jdvrsl_verified.svg);
+}
+.best-deal-section .best-deal-btn {
+  background-color: #1f8c1c;
+  color: white;
+  padding: 4%;
+  width: 80%;
+  border-radius: 5px;
+}
+.best-deal-btn .best-deal-text {
+  font-weight: 650;
+  font-size: 110%;
+  padding-left: 10%;
+}
+.best-deal-btn .circle-arrow {
+  background-color: #028001;
+  border-radius: 50%;
+}
