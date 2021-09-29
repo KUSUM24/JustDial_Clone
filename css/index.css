@@ -124,12 +124,26 @@
   width: 85%;
 }
 .right-section .card-image {
-  width: 260px;
-  height: 150px;
+  width: 310px;
+  height: 170px;
   border-radius: 10px;
+  margin: 2%;
+  object-fit: cover;
+  object-position: top;
 }
 .right-section .details-item {
   color: gray;
+}
+.right-section .icon-font {
+  font-size: 110%;
+  color: gray;
+}
+.right-section .details-heading {
+  font-size: 150%;
+}
+.shop-details {
+  padding: 1%;
+  width: 50%;
 }
 .jd_verified {
   width: 72px;
@@ -137,7 +151,7 @@
   background-size: 70px 15px;
   background-repeat: no-repeat;
   margin-right: 10px;
-  background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/jdvrsl_verified.svg);
+  background-image: url("https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/jdvrsl_verified.svg");
 }
 .best-deal-section .best-deal-btn {
   background-color: #1f8c1c;
@@ -145,6 +159,7 @@
   padding: 4%;
   width: 80%;
   border-radius: 5px;
+  margin-top: 20%;
 }
 .best-deal-btn .best-deal-text {
   font-weight: 650;
@@ -154,4 +169,14 @@
 .best-deal-btn .circle-arrow {
   background-color: #028001;
   border-radius: 50%;
+}
+.friends-rating {
+  color: gray;
+}
+.friends-rating .star-icon {
+  color: #ff6101;
+  font-size: 110%;
+}
+.card-section-1 {
+  margin-bottom: 5px;
 }
